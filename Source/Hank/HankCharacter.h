@@ -48,7 +48,7 @@ protected:
 	void MoveUp(float Value);
 
 	void UpdateCharacter();
-	void Interact();
+	//void Interact();
 	
 
 	/** Handle touch inputs. */
@@ -69,6 +69,6 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "PickUp")
-	void interactEvent();
+	//UFUNCTION(BlueprintImplementableEvent, Category = "PickUp")
+	//void interactEvent();
 };

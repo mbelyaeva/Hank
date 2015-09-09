@@ -127,12 +127,12 @@ void AHankCharacter::SetupPlayerInputComponent(class UInputComponent* InputCompo
 	InputComponent->BindTouch(IE_Pressed, this, &AHankCharacter::TouchStarted);
 	InputComponent->BindTouch(IE_Released, this, &AHankCharacter::TouchStopped);
 
-	InputComponent->BindAction("interact", IE_Pressed, this, &AHankCharacter::Interact);
+	//InputComponent->BindAction("interact", IE_Pressed, this, &AHankCharacter::Interact);
 }
 
-void AHankCharacter::Interact(){
-	interactEvent();
-}
+//void AHankCharacter::Interact(){
+	//interactEvent();
+//}
 
 
 
