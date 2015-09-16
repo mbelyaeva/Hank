@@ -7,5 +7,5 @@
 AHankGameMode::AHankGameMode()
 {
 	// set default pawn class to our character
-	DefaultPawnClass = AHankCharacter::StaticClass();	
+	DefaultPawnClass = AHankCharacter::StaticClass();
 }
